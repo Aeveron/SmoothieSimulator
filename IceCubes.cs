@@ -1,0 +1,6 @@
+﻿namespace ShoppingSimulator
+{
+    class IceCubes
+    {
+    }
+}
