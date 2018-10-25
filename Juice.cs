@@ -1,10 +1,15 @@
 ﻿namespace ShoppingSimulator
 {
-    public class Juice : Fruits
+    public class Juice : Fruit
     {
-        public Juice(FruitTypes fruitTypes, int number) 
+        public int _volumeNeeded;
+
+
+        public Juice(FruitTypes fruitTypes, int number, int volumeneeded)
             : base(fruitTypes, number)
         {
+            _volumeNeeded = volumeneeded;
+
         }
     }
 }
