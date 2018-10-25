@@ -13,10 +13,9 @@ namespace ShoppingSimulator
             _number = number;
         }
 
-        public void GatherFruits(FruitTypes[] fruitTypes)
+        public void SqueezeJuice(FruitTypes fruitTypes)
         {
-           
-        }
-       
+
+        }      
     }
 }
