@@ -10,6 +10,11 @@
             FruitTypes = fruitTypes;
             _number = number;
         }
+
+        public void GatherFruits()
+        {
+
+        }
        
     }
 }
