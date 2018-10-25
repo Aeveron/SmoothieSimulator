@@ -5,8 +5,8 @@
         public int _volumeNeeded;
 
 
-        public Juice(FruitTypes fruitTypes, int number, int volumeneeded)
-            : base(fruitTypes, number)
+        public Juice(FruitTypes fruitTypes, int amount, int volumeneeded)
+            : base(fruitTypes, amount)
         {
             _volumeNeeded = volumeneeded;
 

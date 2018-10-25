@@ -7,18 +7,18 @@ namespace ShoppingSimulator
     public class Fruit
     {
         public FruitTypes? FruitTypes { get; }
-        public int _number { get; }
+        public int _amount { get; }
 
-        public Fruit(FruitTypes? fruitTypes, int number)
+        public Fruit(FruitTypes? fruitTypes, int amount)
         {
             FruitTypes = fruitTypes;
-            _number = number;
+            _amount = amount;
         }
 
         protected Dictionary<string, string> FruitUnits = new Dictionary<string, string>
         {
             {nameof(FruitTypes), "Frukt"},
-            {nameof(_number), "Mengde"},
+            {nameof(_amount), "Mengde"},
         };
 
         public void SqueezeJuice(FruitTypes fruitTypes)
@@ -30,7 +30,7 @@ namespace ShoppingSimulator
         {
             var text = new StringBuilder();
             text.AppendLine(GetType().Name);
-            Add(text, nameof(_number), _number);
+            Add(text, nameof(_amount), _amount);
             ToStringOptional(text);
             return text.ToString();
 
