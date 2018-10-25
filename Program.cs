@@ -10,7 +10,7 @@ namespace ShoppingSimulator
             var banana = new Fruit(FruitTypes.Banana, 1);
             apple.PrintSmoothie();
             Console.WriteLine();
-            banana.PrintSmoothie();
+            
             
         }
     }
