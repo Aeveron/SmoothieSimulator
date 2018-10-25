@@ -13,10 +13,9 @@ namespace ShoppingSimulator
             _number = number;
         }
 
-        public void GatherFruits(FruitTypes fruitTypes)
+        public void GatherFruits(FruitTypes[] fruitTypes)
         {
-            var fruitList = new FruitTypes[8];
-            var randomFruit = new Random();
+           
         }
        
     }
